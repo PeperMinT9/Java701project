@@ -4,33 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa5d2482-ab7c-4146-890f-1f2572eca166" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex10Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex11Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex12Calender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex13Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex14Final.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex15Switch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex16Asciicode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex17Math.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex2MainArgs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex3Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex4Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex5Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex6Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex7Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex8Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex9Operator.java" afterDir="false" />
+    <list default="true" id="fa5d2482-ab7c-4146-890f-1f2572eca166" name="Changes" comment="pm1">
+      <change afterPath="$PROJECT_DIR$/src/day0228/Ex18Book77.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0228/hw1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0228/hw2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0228/hw3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0228/hw4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day0227/Ex1DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day0227/Ex1DataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day0227/Ex2StringType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day0227/Ex2StringType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day0227/Ex3DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day0227/Ex3DataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day0227/Ex4Printf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day0227/Ex4Printf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day0228/Ex1Printf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day0228/Ex1Printf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day0228/Ex5Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day0228/Ex5Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day0228/Ex6Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day0228/Ex6Operator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +63,23 @@
       <option name="presentableId" value="Default" />
       <updated>1677546135739</updated>
       <workItem from="1677546137246" duration="13358000" />
-      <workItem from="1677566999905" duration="1702000" />
+      <workItem from="1677566999905" duration="5015000" />
     </task>
+    <task id="LOCAL-00001" summary="pm1">
+      <created>1677569312961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677569312961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pm1" />
+    <option name="LAST_COMMIT_MESSAGE" value="pm1" />
   </component>
 </project>
