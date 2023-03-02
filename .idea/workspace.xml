@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa5d2482-ab7c-4146-890f-1f2572eca166" name="Changes" comment="pm1">
-      <change afterPath="$PROJECT_DIR$/src/day0228/Ex18Book77.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/hw1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/hw2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/hw3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0228/hw4.java" afterDir="false" />
+    <list default="true" id="fa5d2482-ab7c-4146-890f-1f2572eca166" name="Changes" comment="pm2">
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex10Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex11Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex12Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex13Random.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex14Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex1Munje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex2Munje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex3Munje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex4Munje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex5Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex6Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex7Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex8Loop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0302/Ex9Loop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day0228/Ex5Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day0228/Ex5Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day0228/Ex6Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day0228/Ex6Operator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1677546135739</updated>
       <workItem from="1677546137246" duration="13358000" />
-      <workItem from="1677566999905" duration="5015000" />
+      <workItem from="1677566999905" duration="5835000" />
+      <workItem from="1677717441097" duration="18043000" />
     </task>
     <task id="LOCAL-00001" summary="pm1">
       <created>1677569312961</created>
@@ -72,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677569312961</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pm2">
+      <created>1677573102534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677573102534</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pm1" />
-    <option name="LAST_COMMIT_MESSAGE" value="pm1" />
+    <MESSAGE value="pm2" />
+    <option name="LAST_COMMIT_MESSAGE" value="pm2" />
   </component>
 </project>
