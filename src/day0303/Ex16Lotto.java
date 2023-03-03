@@ -18,7 +18,7 @@ public class Ex16Lotto {
         int cycle = sc.nextInt() / 1000;
         for(int i = 0; i < cycle; i++) {
             for(int j = 0; j < 6; j++) {
-                lotto[j] = r.nextInt(65) + 1;
+                lotto[j] = r.nextInt(45) + 1;
                 for(int k = 0; k < j; k++) {
                     if(lotto[j] == lotto[k]) j--;
                 }
