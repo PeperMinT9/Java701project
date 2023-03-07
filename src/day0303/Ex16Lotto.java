@@ -15,12 +15,21 @@ public class Ex16Lotto {
         // 입력한 금액만큼(천원당 1회) 반복해서 로또 숫자 구한후 정렬한 후 출력
 
         System.out.printf("금액을 입력해주세요: ");
+
         int cycle = sc.nextInt() / 1000;
+        if(cycle < 1) {
+            System.out.println("금액이 부족합니다");
+            return;
+        }
+
         for(int i = 0; i < cycle; i++) {
             for(int j = 0; j < 6; j++) {
                 lotto[j] = r.nextInt(45) + 1;
                 for(int k = 0; k < j; k++) {
-                    if(lotto[j] == lotto[k]) j--;
+                    if(lotto[j] == lotto[k])  {
+                        j--;
+                        break;
+                    }
                 }
             }
 
