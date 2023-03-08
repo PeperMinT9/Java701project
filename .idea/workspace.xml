@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa5d2482-ab7c-4146-890f-1f2572eca166" name="Changes" comment="pm">
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex10Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex11InnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex12InnerClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex13AnonyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex14WindowAnony.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex1Inheri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex1School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex1Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex2Inheri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex3Inheri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex4Abstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex5Abstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex6Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex7Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex8Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0308/Ex9Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0308_2/Ex15Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0308_2/Ex16ShapeArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0308_2/Ex17StaticTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +65,7 @@
       <workItem from="1678062829581" duration="18039000" />
       <workItem from="1678149656454" duration="20625000" />
       <workItem from="1678181184049" duration="488000" />
-      <workItem from="1678235801131" duration="17386000" />
+      <workItem from="1678235801131" duration="22041000" />
     </task>
     <task id="LOCAL-00001" summary="pm1">
       <created>1677569312961</created>
@@ -129,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678179381563</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pm">
+      <created>1678261360113</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678261360113</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
