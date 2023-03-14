@@ -81,6 +81,11 @@ public class Ex7ComboCanvas  extends JFrame {
 
             // 이미지 그리기
             g.drawImage(image, 0, 0, 300, 350, this);
+
+            // 문자열 출력
+            g.setFont(new Font("asdf", Font.ITALIC|Font.BOLD, 35));
+            g.setColor(Color.magenta);
+            g.drawString("asdf", 5, 200);
         }
     }
     public static void main(String[] args) {
