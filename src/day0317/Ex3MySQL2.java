@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Ex3MySQL2 {
     final static String MYSQL_DRIVER = "com.mysql.cj.jdbc.Driver";
     final static String MYSQL_URL = "jdbc:mysql://localhost:3306/bit701?serverTimezone=Asia/Seoul";
-
+    static Scanner sc = new Scanner(System.in);
     public Ex3MySQL2() {
         try {
             getClass().forName(MYSQL_DRIVER);
@@ -49,7 +49,7 @@ public class Ex3MySQL2 {
                 int sum = rs.getInt("sum");
                 int avg = rs.getInt("avg");
 
-                System.out.printf("%d %s %d %d ", seq_no, aname, score_java, score_spring);
+                System.out.printf("%d   %s %d %d ", seq_no, aname, score_java, score_spring);
                 System.out.printf("%d %d ", sum, avg);
                 System.out.printf(dateFormat.format(pub_date) + "\n");
             }
@@ -72,7 +72,7 @@ public class Ex3MySQL2 {
 
     private void searchName(String name) { // 기능 2번
         Connection conn = this.getConnection();
-        String sql = "select *, (java + spring) as sum, ((java + spring) / 2) as avg from bitcamp WHERE name = '" + name + "'";
+        String sql = "select *, (java + spring) as sum, ((java + spring) / 2) as avg from bitcamp WHERE name like '%" + name + "%' order by name asc";
         Statement stmt = null;
         ResultSet rs = null;
         try {
@@ -114,7 +114,7 @@ public class Ex3MySQL2 {
 
     private void searchAVG(int num) { // 기능 3번
         Connection conn = this.getConnection();
-        String sql = "select *, (java + spring) as sum, ((java + spring) / 2) as avg from bitcamp WHERE (java + spring) >= " + num;
+        String sql = "select *, (java + spring) as sum, ((java + spring) / 2) as avg from bitcamp WHERE ((java + spring) / 2) >= " + num;
         Statement stmt = null;
         ResultSet rs = null;
         try {
@@ -154,14 +154,42 @@ public class Ex3MySQL2 {
         }
     }
 
-    
+    private void insertData() {
+        System.out.println("추가할 이름은?");
+        String name = sc.nextLine();
+        System.out.println("추가할 바자점수는?");
+        int java = Integer.parseInt(sc.nextLine());
+        System.out.println("추가할 스프링점수는?");
+        int spring = Integer.parseInt(sc.nextLine());
+
+        Connection conn = this.getConnection();
+        Statement stmt = null;
+        String sql = "insert into bitcamp (name, java, spring, pub_date) values ('" + name + "', " +
+                java + ", " + spring + ", now())";
+
+        try {
+            stmt = conn.createStatement();
+            stmt.execute(sql);
+            System.out.println("데이터가 추가되었습니다");
+        }
+        catch (SQLException e) {
+            System.out.println("insert 오류: " + e.getMessage());
+        }
+        finally {
+            try {
+                if(stmt != null) stmt.close();
+                if(conn != null) stmt.close();
+            }
+            catch (SQLException e) { e.printStackTrace(); }
+        }
+    }
+
     public static void main(String[] args) {
         Ex3MySQL2 ex3 = new Ex3MySQL2();
-        Scanner sc = new Scanner(System.in);
         int menu = -1;
         END:
         while(true) {
-            System.out.println("1. 전체 출력   2. 이름검색  3. 평균검색  4. 종료");
+            System.out.println("1. 전체 출력   2. 이름검색  3. 평균검색  4.데이터 추가  5. 종료");
             menu = Integer.parseInt(sc.nextLine());
             switch (menu) {
                 case 1:
@@ -177,10 +205,15 @@ public class Ex3MySQL2 {
                     int anum = Integer.parseInt(sc.nextLine());
                     ex3.searchAVG(anum);
                     break;
+                case 4:
+                    ex3.insertData();
+                    break;
                 default:
                     System.out.println("시스템종료");
                     break END;
             }
         }
     }
+
+
 }
