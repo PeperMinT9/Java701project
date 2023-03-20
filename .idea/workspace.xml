@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa5d2482-ab7c-4146-890f-1f2572eca166" name="Changes" comment="pm">
-      <change afterPath="$PROJECT_DIR$/src/day0313/Ex8JTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day0314/Ex1SwingMunje.java" afterDir="false" />
+    <list default="true" id="fa5d2482-ab7c-4146-890f-1f2572eca166" name="Changes" comment="am">
+      <change afterPath="$PROJECT_DIR$/src/day0317/Ex1OracleShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0317/Ex2MySQLSawon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day0317/Ex3MySQL2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day0313/Ex7ComboCanvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day0313/Ex7ComboCanvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java701project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java701project.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +43,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Downloads/mysql-connector-j-8.0.32.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -69,7 +74,9 @@
       <workItem from="1678322901033" duration="20700000" />
       <workItem from="1678409701097" duration="19504000" />
       <workItem from="1678668669363" duration="22815000" />
-      <workItem from="1678754261685" duration="1776000" />
+      <workItem from="1678754261685" duration="2014000" />
+      <workItem from="1679020554121" duration="17911000" />
+      <workItem from="1679272435464" duration="365000" />
     </task>
     <task id="LOCAL-00001" summary="pm1">
       <created>1677569312961</created>
@@ -155,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678697990838</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="am">
+      <created>1678756249433</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678756249433</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +180,7 @@
     <MESSAGE value="pm2" />
     <MESSAGE value="." />
     <MESSAGE value="pm" />
-    <option name="LAST_COMMIT_MESSAGE" value="pm" />
+    <MESSAGE value="am" />
+    <option name="LAST_COMMIT_MESSAGE" value="am" />
   </component>
 </project>
